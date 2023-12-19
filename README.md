@@ -4,7 +4,7 @@ A websocket based multiplayer snake game made with Vue.js
 
 ## What is Vuesnake?
 
-Vuesnake is a Vue.js based multiplayer snake game, using websockets as the communication. Vuesnake is connected to a small gameserver [written in java](https://github.com/RoyAppeldoorn/snake-server). The client is also connected to a [spring boot rest api](https://github.com/RoyAppeldoorn/snake-api). This was my first interaction with websockets and it is developed for local use only. I know that beats the purpose of using websockets but it was a great exercise.
+Vuesnake is a Vue.js based multiplayer snake game, using websockets as the communication. The game logic for Vuesnake is pure serverside. The client also communicates with a Spring Boot API for storing player related stats. This was my first interaction with websockets and it is developed for local use only. I know that beats the purpose of using websockets but it was a great exercise.
 
 ### Features
 * Registration via firebase. 
